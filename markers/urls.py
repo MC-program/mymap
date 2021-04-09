@@ -7,5 +7,5 @@ from .views import MarkersMapView
 app_name = "markers"
 
 urlpatterns = [
-    path("map/", MarkersMapView.as_view()),
+    path("map/", MarkersMapView.as_view(), name="markers"),
 ]

@@ -1,3 +1,6 @@
+"""
+Define views for makers here.
+"""
 import json
 
 from django.contrib.gis.gdal import OGRGeometry
@@ -8,6 +11,7 @@ from django.views.generic.base import TemplateView
 from django.contrib.gis.gdal import OGRGeometry
 
 from .models import Marker
+
 
 
 class MarkersMapView(TemplateView):
